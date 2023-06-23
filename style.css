@@ -1,0 +1,17 @@
+body {
+    background-color: #f6911b;
+}
+
+.header {
+    font-size: 16px;
+}
+
+.content {
+    background-color: #fffafa;
+    padding: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
