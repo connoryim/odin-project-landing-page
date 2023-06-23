@@ -27,6 +27,8 @@ body {
     padding: 12px;
     display: flex;
     text-align: start;
+    flex: 1;
+    justify-content: center;
 }
 
 a {
@@ -41,9 +43,10 @@ a {
 
 .examples {
     display: flex;
-    justify-content: space-around center;
+    justify-content: space-around;
     gap: 12px;
-    max-width: 42px;
+    padding: 10px;
+    margin: 0;
 }
 
 .footer{
@@ -66,5 +69,15 @@ button {
 
 
 .video img{
+    width: 100%;
+    height: auto;
     max-width: 200px;
+}
+
+.content img{
+    display: flex;
+    width: 20%;
+    height: auto;
+    flex-shrink: 0;
+    min-width: 100px;
 }
