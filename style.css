@@ -17,7 +17,9 @@ body {
     display: flex;
     font-size: 16px;
     justify-content: space-between;
-    padding: 0 12px;
+    align-items: center;
+    padding: 4px 12px;
+    max-height: 40px;
 }
 
 .content {
@@ -33,9 +35,15 @@ a {
     color: black;
 }
 
+.logo {
+    max-height: 40px;
+}
+
 .examples {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around center;
+    gap: 12px;
+    max-width: 42px;
 }
 
 .footer{
@@ -46,5 +54,17 @@ a {
 
 .cta{
     background-color: #df851e;
+    
 }
 
+button {
+    border: none;
+    border-radius: 8px;
+    background: #eee;
+    padding: 8px 16px;
+}
+
+
+.video img{
+    max-width: 200px;
+}
