@@ -45,8 +45,8 @@ a {
 .examples {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    gap: 12px;
+    align-items: start;
+    gap: 20px;
     padding: 10px;
     margin: 0;
 }
@@ -73,7 +73,9 @@ button {
 .video img{
     width: 100%;
     height: auto;
-    max-width: 200px;
+    max-width: 300px;
+    border: 6px solid;
+    border-radius: 8px;
 }
 
 .content img{
@@ -82,4 +84,11 @@ button {
     height: auto;
     flex-shrink: 0;
     min-width: 200px;
+}
+
+.video div{
+    background-color: #eee;
+    padding: 8px;
+    border-radius: 16px;
+    margin-top: 8px;
 }
