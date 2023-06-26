@@ -4,10 +4,10 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f6911b ;
+    overflow-x: hidden;
     display: flex;
     text-align: center;
     flex-direction: column;
-    overflow: hidden;
     justify-content: space-between;
     align-items: center;
 }
@@ -22,7 +22,6 @@ body {
 }
 
 .content {
-    background-color: #fffafa;
     padding: 12px;
     display: flex;
     text-align: start;
@@ -32,12 +31,27 @@ body {
 }
 
 .examples {
+    background-color: #fffafa;
     display: flex;
     justify-content: space-around;
     align-items: start;
     gap: 20px;
     padding: 10px;
     margin: 0;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 24px;
+}
+
+.cta{
+    background-color: #df851e;
 }
 
 .footer{
@@ -58,15 +72,6 @@ a {
 
 .logo {
     max-height: 40px;
-}
-
-
-
-
-
-.cta{
-    background-color: #df851e;
-    
 }
 
 button {
@@ -103,9 +108,24 @@ button {
 .e-title {
     font-weight: 700;
     font-size: 24px;
-    background-color: #eee;
+    background-color: #fffafa;
     padding: 4px;
-    border-radius: 8px;
-    margin: 16px;
-    
+}
+
+.quote-text{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 48px;
+    color: #dad9d9;
+    max-width: 80%;
+    position: relative;
+    right: 5%;
+}
+
+.quote-by{
+    font-weight: 900;
+    position: relative;
+    left: 30%;
+    font-size: 32px;
+    color: darkgrey;
 }
