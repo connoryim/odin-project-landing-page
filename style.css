@@ -10,6 +10,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+
+
 }
 
 .header {
@@ -28,6 +30,8 @@ body {
     flex: 1;
     justify-content: center;
     align-items: center;
+    gap: 24px;
+    margin-bottom: 48px;
 }
 
 .examples {
@@ -144,4 +148,8 @@ button {
     left: 30%;
     font-size: 32px;
     color: darkgrey;
+}
+
+.content-text {
+    max-width: 40%;
 }
