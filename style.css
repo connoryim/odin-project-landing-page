@@ -51,7 +51,19 @@ body {
 }
 
 .cta{
-    background-color: #df851e;
+    flex: 1;
+    display: flex;
+    background-color: #b14e9d;
+    justify-content: center;
+    align-items: end;
+    gap: 64px;
+    border-radius: 16px;
+    margin: 16px 32px;
+    padding: 50px;
+    text-align: start;
+
+    font-size: 20px;
+    
 }
 
 .footer{
@@ -75,9 +87,13 @@ a {
 }
 
 button {
+    background-color: #b14e9d;
     border: none;
     border-radius: 8px;
-    background: #eee;
+    border: solid;
+    border-color: #f6911b;
+    font-size: 16px;
+    font-weight: lighter;
     padding: 8px 16px;
 }
 
