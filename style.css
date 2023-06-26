@@ -1,3 +1,4 @@
+/*Frame work start*/
 
 body {
     height: 100vh;
@@ -7,10 +8,8 @@ body {
     text-align: center;
     flex-direction: column;
     overflow: hidden;
-    flex: 1;
     justify-content: space-between;
-    
-    
+    align-items: center;
 }
 
 .header {
@@ -32,16 +31,6 @@ body {
     align-items: center;
 }
 
-a {
-    text-decoration: none;
-    margin: 0 4px;
-    color: black;
-}
-
-.logo {
-    max-height: 40px;
-}
-
 .examples {
     display: flex;
     justify-content: space-around;
@@ -56,6 +45,24 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+/*Frame Work end*/
+
+
+/*Media and text*/
+a {
+    text-decoration: none;
+    margin: 0 4px;
+    color: black;
+}
+
+.logo {
+    max-height: 40px;
+}
+
+
+
+
 
 .cta{
     background-color: #df851e;
@@ -80,7 +87,7 @@ button {
 
 .content img{
     display: flex;
-    width: 20%;
+    width: 20%; 
     height: auto;
     flex-shrink: 0;
     min-width: 200px;
@@ -91,4 +98,14 @@ button {
     padding: 8px;
     border-radius: 16px;
     margin-top: 8px;
+}
+
+.e-title {
+    font-weight: 700;
+    font-size: 24px;
+    background-color: #eee;
+    padding: 4px;
+    border-radius: 8px;
+    margin: 16px;
+    
 }
