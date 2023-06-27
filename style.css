@@ -38,9 +38,10 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: start;
-    gap: 20px;
+    gap: 32px;
     padding: 10px;
     margin: 0;
+    padding-right: 30px;
 }
 
 .quote{
@@ -101,13 +102,17 @@ button {
     padding: 8px 16px;
 }
 
+.video{
+    max-width: 25%;
+}
 
 .video img{
     width: 100%;
     height: auto;
-    max-width: 300px;
     border: 6px solid;
     border-radius: 8px;
+    box-shadow: 0px 0px 3px 3px;
+
 }
 
 .content img{
@@ -157,6 +162,11 @@ button {
 .main-text{
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.sub-button{
+    margin-top: 24px;
 }
 
 .sub-button:hover{
@@ -168,4 +178,9 @@ button {
 .sub-button:active{
     background-color: black;
     color: #eee;
+}
+
+.video:hover{
+    max-width: 50%;
+    width: 150%;
 }
