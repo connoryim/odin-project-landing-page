@@ -81,15 +81,13 @@ body {
 
 
 /*Media and text*/
+
 a {
     text-decoration: none;
     margin: 0 4px;
     color: black;
 }
 
-.logo {
-    max-height: 40px;
-}
 
 button {
     background-color: #b14e9d;
@@ -102,6 +100,54 @@ button {
     padding: 8px 16px;
 }
 
+.sub-button{
+    margin-top: 24px;
+}
+
+.sub-button:hover{
+    background-color: aquamarine;
+    border-color: #b14e9d;
+    transition: 0.2s;
+}
+
+.sub-button:active{
+    background-color: black;
+    color: #eee;
+}
+/*Header media and style*/
+
+.logo {
+    max-height: 40px;
+}
+
+.links a:hover{
+    background-color: #f6911b;
+    padding: 8px;
+    border: solid #b14e9d;
+    border-radius: 8px;
+}
+
+/*Content media and style*/
+
+.content img{
+    display: flex;
+    width: 30%; 
+    height: auto;
+    flex-shrink: 0;
+    min-width: 200px;
+}
+
+.content-text {
+    max-width: 50%;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+/*Examples media and style*/
+
 .video{
     max-width: 25%;
 }
@@ -113,14 +159,6 @@ button {
     border-radius: 8px;
     box-shadow: 0px 0px 3px 3px;
 
-}
-
-.content img{
-    display: flex;
-    width: 20%; 
-    height: auto;
-    flex-shrink: 0;
-    min-width: 200px;
 }
 
 .video div{
@@ -136,6 +174,13 @@ button {
     background-color: #fffafa;
     padding: 4px;
 }
+
+.video:hover{
+    max-width: 50%;
+    width: 150%;
+    transition: 0.3s;
+}
+/*Quote media and style*/
 
 .quote-text{
     font-style: italic;
@@ -155,40 +200,8 @@ button {
     color: darkgrey;
 }
 
-.content-text {
-    max-width: 50%;
-}
 
-.main-text{
-    font-size: 48px;
-    font-weight: 900;
-    margin-bottom: 24px;
-}
 
-.sub-button{
-    margin-top: 24px;
-}
 
-.sub-button:hover{
-    background-color: aquamarine;
-    border-color: #b14e9d;
-    transition: 0.2s;
-}
 
-.sub-button:active{
-    background-color: black;
-    color: #eee;
-}
 
-.video:hover{
-    max-width: 50%;
-    width: 150%;
-    transition: 1s;
-}
-
-.links a:hover{
-    background-color: #f6911b;
-    padding: 8px;
-    border: solid #b14e9d;
-    border-radius: 8px;
-}
