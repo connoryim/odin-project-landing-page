@@ -183,4 +183,12 @@ button {
 .video:hover{
     max-width: 50%;
     width: 150%;
+    transition: 1s;
+}
+
+.links a:hover{
+    background-color: #f6911b;
+    padding: 8px;
+    border: solid #b14e9d;
+    border-radius: 8px;
 }
