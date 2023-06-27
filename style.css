@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .header {
@@ -64,6 +64,7 @@ body {
     border-radius: 16px;
     margin: 16px 32px;
     padding: 50px;
+    padding-bottom: 60px;
     text-align: start;
 
     font-size: 20px;
