@@ -145,7 +145,11 @@ button {
 .main-text{
     font-size: 48px;
     font-weight: 900;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
+}
+
+.lower-text{
+    font-size: 18px;
 }
 /*Examples media and style*/
 
