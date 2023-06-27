@@ -10,8 +10,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
-
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .header {
@@ -74,6 +73,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-style: italic;
 }
 
 /*Frame Work end*/
@@ -151,5 +151,21 @@ button {
 }
 
 .content-text {
-    max-width: 40%;
+    max-width: 50%;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sub-button:hover{
+    background-color: aquamarine;
+    border-color: #b14e9d;
+    transition: 0.2s;
+}
+
+.sub-button:active{
+    background-color: black;
+    color: #eee;
 }
